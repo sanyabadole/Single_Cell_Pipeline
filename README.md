@@ -73,20 +73,20 @@ Open the app in your browser at `http://127.0.0.1:8050`.
 
 ## 📸 Screenshots
 
-> ⚠️ Add your screenshots below after launching the app and exploring each tab:
-
 ### Dashboard Landing Page
-![Landing](screenshots/landing.png)
+![Landing](screenshots/home_page.png)
 
 ### Quality Control Tab
 ![QC](screenshots/qc.png)
 
 ### Dimensionality Reduction (UMAP, t-SNE, etc.)
-![UMAP](screenshots/umap.png)
+![UMAP](screenshots/umap_3d.png)
 ![tSNE](screenshots/tsne.png)
+![Trimap](screenshots/trimap.png)
+![Trimap](screenshots/phate.png)
 
 ### Gene Expression & Heatmap
-![Gene](screenshots/gene_expr.png)
+![Gene](screenshots/gene_expression.png)
 ![Heatmap](screenshots/heatmap.png)
 
 ---
