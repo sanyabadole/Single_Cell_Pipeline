@@ -19,7 +19,7 @@ current_dir = Path(__file__).parent
 data_path = (current_dir / ".." / "data" / "processed_data.h5ad").resolve()
 
 # Load processed data
-adata = sc.read_h5ad("processed_data.h5ad")
+adata = sc.read_h5ad(data_path)
 
 # Precompute dimensionality reductions if not present
 if 'X_umap' not in adata.obsm:
