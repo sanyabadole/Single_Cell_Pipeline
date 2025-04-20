@@ -10,7 +10,7 @@ This repository includes a sample subset of single-cell RNA-seq data derived fro
 
 ## 📁 File Provided
 
-- `sample_data_subset.h5ad`: A randomly sampled subset (7,000 cells) of the full dataset in AnnData (`.h5ad`) format.
+- `sample_data_subset.h5ad`: A randomly sampled subset (6,000 cells) of the full dataset in AnnData (`.h5ad`) format.
 
 ## 🛠️ How the Subset Was Created
 
@@ -38,7 +38,7 @@ metadata = pd.read_csv('metadata.csv', index_col=0)
 adata.obs = metadata.loc[adata.obs_names]
 
 # Select number of cells for the subset
-n_cells = 7000
+n_cells = 6000
 n_cells = min(n_cells, adata.n_obs)
 
 # Randomly sample cells
@@ -49,6 +49,8 @@ adata_subset = adata[random_indices, :]
 # Save subset to .h5ad file
 adata_subset.write("sample_data.h5ad")
 ```
+
+This file was then processed using the ./execution.sh --process command and the processed_data.h5ad file was created.
 
 ## ⚠️ Notes
 
