@@ -34,7 +34,7 @@ This project provides a complete pipeline for single-cell RNA-seq preprocessing 
 
 ```bash
 # Clone this repository
-git clone https://github.com/your-repo/Single_Cell_Pipeline
+git clone https://github.com/sanyabadole/Single_Cell_Pipeline
 cd Single_Cell_Pipeline
 
 # Create virtual environment
