@@ -53,7 +53,7 @@ adata_subset.write("sample_data.h5ad")
 The processed_data.h5ad file in this folder was created using the command
 
 ```bash
-./execution.sh --process command
+./execution.sh --process
 ```
 
 
