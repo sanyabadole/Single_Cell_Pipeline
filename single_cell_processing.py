@@ -7,8 +7,8 @@ from pathlib import Path
 
 # Use pathlib to construct the path to the input and output data files
 current_dir = Path(__file__).parent
-input_file = (current_dir / ".." / "data" / "sample_data.h5ad").resolve()
-output_file = (current_dir / ".." / "data" / "processed_data.h5ad").resolve()
+input_file = (current_dir / "data" / "sample_data.h5ad").resolve()
+output_file = (current_dir / "data" / "processed_data.h5ad").resolve()
 
 # Check if the file exists
 if not input_file.exists():
