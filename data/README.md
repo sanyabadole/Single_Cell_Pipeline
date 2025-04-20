@@ -50,7 +50,12 @@ adata_subset = adata[random_indices, :]
 adata_subset.write("sample_data.h5ad")
 ```
 
-This file was then processed using the ./execution.sh --process command and the processed_data.h5ad file was created.
+The processed_data.h5ad file in this folder was created using the command
+
+```bash
+./execution.sh --process command
+```
+
 
 ## ⚠️ Notes
 
