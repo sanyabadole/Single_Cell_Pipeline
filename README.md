@@ -16,7 +16,7 @@ This project provides a complete pipeline for single-cell RNA-seq preprocessing 
 ## 📁 Project Structure
 Make sure your project directory looks like this in order for the pipeline to run sucessfully.
 ```
-.
+Single_Cell_Pipeline
 ├── data/
 │   ├── sample_data.h5ad          # Raw input data (user-provided)
 │   └── processed_data.h5ad       # Generated processed dataset
