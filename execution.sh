@@ -23,6 +23,7 @@ fi
 if [ "$1" == "--process" ]; then
     # Run the processing pipeline
     python single_cell_processing.py
+    python app.py
 else
     # Check if processed data exists before running the app
     if [ ! -f "./data/processed_data.h5ad" ]; then
