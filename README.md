@@ -74,7 +74,7 @@ Open the app in your browser at `http://127.0.0.1:8050`.
 ## 📸 Screenshots
 
 ### Dashboard Landing Page
-![Landing](screenshots/home_page.png)
+![Landing](screenshots/home_page1.png)
 
 ### Quality Control Tab
 ![QC](screenshots/qc.png)
